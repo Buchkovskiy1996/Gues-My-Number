@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+body {
+background-color: #222;
+color: #eee;
+font-family: 'Rubik Bubbles', cursive;
+/* background-color: #60b347; */
+}
+
+.header__top {
+padding-top: 15px;
+display:flex ;
+justify-content: space-around;
+}
+
+.btn__again {
+font-family: 'Rubik Bubbles', cursive;
+display: inline-block;
+width: 150px;
+height: 50px;
+color: #222;
+font-size: 24px;
+font-weight: 700;
+background-color: #eee;
+cursor: pointer;
+border: none;
+}
+
+.between_text {
+padding-top: 13px;
+}
+
+.content {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 70vh;
+}
+
+.number__text {
+padding-bottom: 30px;
+font-size: 80px;
+}
+
+.number {
+height: 150px;
+width: 150px;
+background: #eee;
+color: #222;
+border: 1px solid #fff;
+padding-top: 25px;
+font-size: 75px;
+text-align: center;
+}
+
+
+.bottom {
+display: flex;
+justify-content: center;
+}
+
+.guess {
+font-family: 'Rubik Bubbles', cursive;
+display: inline-block;
+height: 70px;
+width: 140px;
+margin-bottom: 20px;
+background: none;
+border: 1px solid #eee;
+padding: 20px;
+font-size: 50px;
+padding-left: 35pxx;
+font-weight: 700;
+color: #fff;
+}
+
+.left {
+position: relative;
+margin-right: 50px;
+} 
+
+.btn_check {
+font-family: 'Rubik Bubbles', cursive;
+display: inline-block;
+width: 90px;
+height: 40px;
+margin-left: 20px;
+cursor: pointer;
+background: #eee;
+border: none;
+color: #222;
+font-size: 20px;
+font-weight: 700;
+position: absolute;
+left: 0;
+bottom: 0px;
+}
+
+.btn_check:hover,
+.btn__again:hover {
+    background: rgb(161, 157, 157);
+}
+
+.message, .label_score {
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 760px) {
+    .number__text {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bottom {
+        font-size: 16px;
+    }
+    .btn__again {
+        width: 140px;
+    }
+    .left {
+        max-width: 92px;
+    }
+    .number__text {
+        text-align: center;
+    }
+        .btn_check {
+            bottom: -20px;
+        }
+}
+
+@media (max-width: 340px) {
+    .btn_check {
+        bottom: -20px;
+    }
+    .message {
+        padding-left:10px
+    }
+}
