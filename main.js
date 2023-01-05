@@ -12,7 +12,7 @@ document.querySelector('.btn_check').addEventListener('click', function() {
     const guess = Number(document.querySelector('.guess').value);
     if(!guess) {
         // document.querySelector('.message').textContent = "😞No number!";
-        displayMessage("😞No number!")
+        displayMessage("😞Число не вказано !")
     } else if (guess === secretNumber) {
         // document.querySelector('.message').textContent = "🤗 Correct Number!";
         displayMessage("🤗 Ви вгадали чарівне число!")
