@@ -114,46 +114,50 @@ bottom: 0px;
 
 .btn_check:hover,
 .btn__again:hover {
-    background: rgb(161, 157, 157);
+background: rgb(161, 157, 157);
 }
 
 .message, .label_score {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 
 @media (max-width: 760px) {
     .number__text {
-        font-size: 50px;
+font-size: 50px;
+    }
+    .content {
+height: 50vh;
     }
 }
 
 @media (max-width: 500px) {
     .bottom {
-        font-size: 16px;
+font-size: 16px;
+gap: 10px;
     }
     .btn__again {
-        width: 140px;
+width: 140px;
     }
     .left {
-        max-width: 92px;
+max-width: 92px;
     }
     .number__text {
-        text-align: center;
+text-align: center;
     }
         .btn_check {
-        bottom: -20px;
+bottom: -20px;
         }
         .content {
-        height: 60vh;
+height: 60vh;
         }
 }
 
 @media (max-width: 340px) {
     .btn_check {
-        bottom: -20px;
+bottom: -20px;
     }
     .message {
-        padding-left:10px;
+padding-left:10px;
     }
 }
