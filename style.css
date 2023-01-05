@@ -42,7 +42,7 @@ border: none;
 }
 
 .between_text {
-padding-top: 13px;
+padding-top: 8px;
 }
 
 .content {
@@ -142,7 +142,10 @@ bottom: 0px;
         text-align: center;
     }
         .btn_check {
-            bottom: -20px;
+        bottom: -20px;
+        }
+        .content {
+        height: 60vh;
         }
 }
 
